@@ -8,3 +8,7 @@ from dir1.mod1 import add
 ])
 def test_add(numbers, result):
     assert add(*numbers) == result
+
+
+def test_fixture(foo):
+    assert foo == 1
