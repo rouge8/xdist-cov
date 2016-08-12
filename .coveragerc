@@ -1,5 +1,5 @@
 [run]
-source = dir1
+source = dir1,tests
 branch = True
 parallel = True
 
